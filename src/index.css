@@ -1,0 +1,70 @@
+:root {
+  font-family: system-ui;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --sat: env(safe-area-inset-top);
+  --sar: env(safe-area-inset-right);
+  --sab: env(safe-area-inset-bottom); /* THIS ONE GETS US THE HOME BAR HEIGHT */
+  --sal: env(safe-area-inset-left);
+
+  /* color style */
+  --color-primary: #1d88ed;
+
+  --color-secondary-blue-1: #ecf5fd;
+  --color-secondary-blue-2: #6bb2ef;
+  --color-secondary-blue-3: #479eeb;
+
+  --color-semantic-error: #ff5252;
+
+  --color-neutral-100: #ffffff;
+  --color-neutral-95: #f8f8f8;
+  --color-neutral-90: #d2d4dd;
+  --color-neutral-80: #bcc1c9;
+  --color-neutral-75: #a6abb4;
+  --color-neutral-60: #949aa1;
+  --color-neutral-50: #787b84;
+  --color-neutral-45: #63676c;
+  --color-neutral-30: #47494c;
+  --color-neutral-15: #303030;
+  --color-neutral-0: #000000;
+
+  /* text size style */
+  --text-size-heading-large: 30px;
+  --text-size-heading-small: 20px;
+
+  --text-size-title: 18px;
+
+  --text-size-body-medium: 15px;
+  --text-size-body-small: 13px;
+
+  --text-size-detail: 12px;
+
+  --text-size-button: 15px;
+  --text-size-button-large: 16px;
+
+  /* round size style */
+  --round-size-small: 5px;
+  --round-size-medium: 10px;
+  --round-size-large: 20px;
+
+  /* react-toastify style */
+  --toastify-color-dark: #000000;
+  --toastify-color-info: #52a2ff;
+  --toastify-color-success: #4bc361;
+  --toastify-color-warning: #ff5252;
+  --toastify-color-error: #ff5252;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
