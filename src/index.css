@@ -31,6 +31,8 @@
   --color-neutral-0: #000000;
 
   /* text size style */
+  --text-size-logo-title: 30px;
+
   --text-size-heading-large: 30px;
   --text-size-heading-small: 20px;
 
@@ -55,6 +57,11 @@
   --toastify-color-success: #4bc361;
   --toastify-color-warning: #ff5252;
   --toastify-color-error: #ff5252;
+}
+
+@font-face {
+  font-family: "Cafe24Ssurround";
+  src: url(/src/assets/font/Cafe24Ssurround-v2.0.ttf);
 }
 
 html {

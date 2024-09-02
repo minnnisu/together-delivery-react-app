@@ -1,0 +1,7 @@
+.logo-title {
+  font-size: var(--text-size-logo-title);
+  color: var(--color-primary);
+  font-family: "Cafe24Ssurround";
+  margin: 0;
+  padding: 0;
+}
