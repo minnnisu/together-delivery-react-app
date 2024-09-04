@@ -22,7 +22,7 @@ const TextInput = ({
   );
 };
 
-TextInput.PropTypes = {
+TextInput.propTypes = {
   placeholder: PropTypes.string,
   type: PropTypes.oneOf(["text", "password", "tel"]),
   autoCapitalize: PropTypes.oneOf(["off", "on"]),

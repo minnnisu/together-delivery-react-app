@@ -1,0 +1,38 @@
+.big-loading-button {
+  font-size: var(--text-size-button-large);
+  font-weight: 500;
+  height: 47px;
+  width: 100%;
+  border-radius: var(--round-size-large);
+  background-color: var(--color-primary);
+  color: var(--color-neutral-100);
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  pointer-events: none;
+  color: transparent;
+  position: relative;
+}
+
+.big-loading-button::after {
+  content: "";
+  border: 2px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 2px solid #3498db;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
