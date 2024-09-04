@@ -1,6 +1,5 @@
 import { ToastContainer, toast, Slide } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import "./App.css";
 import "./index.css";
 import router from "./routes/router";
 import { RouterProvider } from "react-router-dom";

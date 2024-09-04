@@ -1,0 +1,25 @@
+.signup-layout-container {
+  padding: 0 35px;
+}
+
+.signup-layout-container .logo-title {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.signup-layout-container .signup-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.signup-layout-container .signup-input-container .username-container {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  gap: 6px;
+}
+
+.signup-layout-container .signup-input-container .username-container .username {
+  flex-grow: 1;
+}
