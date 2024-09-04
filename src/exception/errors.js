@@ -22,3 +22,21 @@ export class TokenReissueError extends Error {
     super(`TokenReissueError`);
   }
 }
+
+export class UsernameDuplicationError extends Error {
+  constructor() {
+    super(`UsernameDuplicationError`);
+  }
+}
+
+export class NicknameDuplicationError extends Error {
+  constructor() {
+    super(`NicknameDuplicationError`);
+  }
+}
+
+export class InternalServerError extends Error {
+  constructor() {
+    super(`InternalServerError`);
+  }
+}

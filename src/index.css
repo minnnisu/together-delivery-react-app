@@ -16,7 +16,11 @@
   --color-secondary-blue-2: #6bb2ef;
   --color-secondary-blue-3: #479eeb;
 
+  --color-semantic-success: #4bc361;
+  --color-semantic-warning: #f4b741;
   --color-semantic-error: #ff5252;
+  --color-semantic-important: #ff5252;
+  --color-semantic-info: #52a2ff;
 
   --color-neutral-100: #ffffff;
   --color-neutral-95: #f8f8f8;

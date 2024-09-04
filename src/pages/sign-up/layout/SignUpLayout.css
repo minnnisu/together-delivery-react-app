@@ -13,13 +13,16 @@
   gap: 14px;
 }
 
-.signup-layout-container .signup-input-container .username-container {
+.signup-layout-container .signup-input-container .row-flex-container {
   display: flex;
   flex-direction: row;
   align-items: end;
   gap: 6px;
 }
 
-.signup-layout-container .signup-input-container .username-container .username {
+.signup-layout-container
+  .signup-input-container
+  .row-flex-container
+  .text-input {
   flex-grow: 1;
 }

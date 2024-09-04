@@ -54,7 +54,7 @@ const SignInPage = () => {
         <BigLoadingButton />
       )}
 
-      <SignUpTextButton />
+      <SignUpTextButton onClick={() => navigate("/signUp")} />
     </SignInLayout>
   );
 };

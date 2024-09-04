@@ -1,0 +1,52 @@
+.blind-big-loading-button-gap {
+  height: 170px;
+}
+
+.blind-big-loading-button {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #d7d7d7 66.5%);
+  position: fixed;
+  width: 100vw;
+  height: 155px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.blind-big-loading-button .big-loading-button {
+  position: fixed;
+  bottom: 19px;
+  left: 35px;
+  width: calc(100vw - 70px);
+  font-size: var(--text-size-button-large);
+  font-weight: 500;
+  height: 47px;
+  border-radius: var(--round-size-large);
+  background-color: var(--color-primary);
+  color: var(--color-neutral-100);
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.blind-big-loading-button .big-loading-button::after {
+  content: "";
+  border: 2px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 2px solid #3498db;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
