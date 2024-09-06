@@ -1,0 +1,7 @@
+.signup-text-button {
+  font-size: var(--text-size-body-large);
+  color: var(--color-neutral-15);
+  background: none;
+  border: none;
+  padding: 0;
+}

@@ -1,0 +1,6 @@
+.sub-title {
+  font-size: var(--text-size-body-medium);
+  color: var(--color-neutral-30);
+  font-weight: bold;
+  margin: 0;
+}
